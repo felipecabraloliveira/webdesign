@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="author" content="Felipe Cabral" />
+		<meta name="distribution" content="Global" />
+		<meta name="language" content="pt-br" />
+		<meta name="viewport" content="width=device=width, initial-scale=1.0" charset="utf-8">		
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+		<title> Dashboard Responsivo </title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="navigation">
+				<ul>
+					<li>
+						<a href="#">
+							<span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+							<span class="title"> Felipe Cabral </span>
+						</a>
+					</li>				
+					<li>
+						<a href="#">
+							<span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+							<span class="title"> Dashboard </span>
+						</a>
+					</li>				
+					<li>
+						<a href="#">
+							<span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+							<span class="title"> Usuários </span>
+						</a>
+					</li>				
+					<li>
+						<a href="#">
+							<span class="icon"><ion-icon name="chatbox-outline"></ion-icon></span>
+							<span class="title"> Mensagens </span>
+						</a>
+					</li>				
+					<li>
+						<a href="#">
+							<span class="icon"><ion-icon name="chatbox-outline"></ion-icon></span>
+							<span class="title"> Ajuda </span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+							<span class="title"> Configuracões </span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+							<span class="title"> Senha </span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon"><ion-icon name="log-in-outline"></ion-icon></span>
+							<span class="title"> Sair </span>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+			<!-- Main -->
+			<div class="main">
+				<div class="topbar">
+					<div class="toggle">
+						<ion-icon name="menu-outline"></ion-icon>
+					</div>
+					<!-- Busca -->
+					<div class="search">
+						<label>
+							<input type="text" placeholder="Busca aqui">
+							<ion-icon name="search-outline"></ion-icon>
+						</label>
+					</div>
+					<!-- Logo do usuário -->
+					<div class="user">
+						<img src="img/user.jpg">
+					</div>
+				</div>
+				<!-- Blocos -->
+				<div class="cardBox">
+					<div class="card">
+						<div>
+							<div class="numbers">137</div>
+							<div class="cardName">Pedidos</div>
+						</div>
+						<div class="iconBx">
+							<ion-icon name="receipt-outline"></ion-icon>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">80</div>
+							<div class="cardName">Vendas Efetivadas</div>
+						</div>
+						<div class="iconBx">
+							<ion-icon name="cart-outline"></ion-icon>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">58,39</div>
+							<div class="cardName">Conversão</div>
+						</div>
+						<div class="iconBx">
+							<i class="material-icons">percent</i>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">R$7.842</div>
+							<div class="cardName">Ganhos</div>
+						</div>
+						<div class="iconBx">
+							<ion-icon name="cash-outline"></ion-icon>
+						</div>
+					</div>
+				</div>					
+				<div class="details">
+					<!-- Lista detalhada de Pedidos -->
+					<div class="recentOrders"> 
+						<div class="cardHeader">
+							<h2> Pedidos Recentes</h2>
+							<a href="#" class="btn"> Visualizar tudo </a>
+						</div>
+						<table>
+							<thead>
+								<tr>
+									<td>Produto</td>
+									<td>Preço</td>
+									<td>Pagamento</td>
+									<td>Status</td>
+								</tr>	
+							</thead>
+							<tbody>
+								<tr>
+									<td>Smart TV 40"</td>
+									<td>R$ 2.500,00</td>
+									<td>Boleto</td>
+									<td><span class="status inprogress">Rota de Entrega</span></td>
+								</tr>
+								<tr>
+									<td>Notebook Acer Aspire 5</td>
+									<td>R$ 3.699,00</td>
+									<td>Cartão de Crédito</td>
+									<td><span class="status delivered">Entregue</span></td>
+								</tr>
+								<tr>
+									<td>Gift Card Digital Nintendo R$100</td>
+									<td>R$ 100,00</td>
+									<td>Boleto</td>
+									<td><span class="status delivered">Entregue</span></td>
+								</tr>
+								<tr>
+									<td>Forno micro-ondas Electrolux </td>
+									<td>R$ 499,99</td>
+									<td>Boleto</td>
+									<td><span class="status return">Devolvido</span></td>
+								</tr>
+								<tr>
+									<td>Geladeira / Refrigerador Brastemp</td>
+									<td>R$ 2.799,99</td>
+									<td>Boleto</td>
+									<td><span class="status pending">Pendente</span></td>
+								</tr>
+								<tr>
+									<td>Smartphone Samsung Galaxy S20</td>
+									<td>R$ 2.059,10</td>
+									<td>Boleto</td>
+									<td><span class="status delivered">Entregue</span></td>
+								</tr>
+								<tr>
+									<td>Batedeira Planetária 12vel 750w</td>
+									<td>R$ 519,99</td>
+									<td>Boleto</td>
+									<td><span class="status pending">Pendente</span></td>
+								</tr>
+								<tr>
+									<td>Fritadeira Elétrica Oster 3,3L</td>
+									<td>R$ 353,78</td>
+									<td>Boleto</td>
+									<td><span class="status delivered">Entregue</span></td>
+								</tr>
+								<tr>
+									<td>Controle Dualshock 4 - PS4</td>
+									<td>R$ 299,90</td>
+									<td>Cartão de Crédito</td>
+									<td><span class="status delivered">Entregue</span></td>
+								</tr>
+								<tr>
+									<td>Jogo de Cama Lençol 4 Peças</td>
+									<td>R$ 84,99</td>
+									<td>Boleto</td>
+									<td><span class="status return">Devolvido</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- Novos clientes -->
+					<div class="recentCustomers">
+						<div class="cardHeader">
+							<h2> Novos Clientes </h2>
+							<a href="#" class="btn"> Visualizar tudo </a>
+						</div>
+						<table>
+							<tr>
+								<td width="60px"><div class="imgBx"><img src="img/jose-dos-santos.jpg"></div></td>
+								<td><h4>Jose dos Santos<br><span>São Paulo/SP</span></h4></td>
+							</tr>
+							<tr>
+								<td width="60px"><div class="imgBx"><img src="img/augusto-souza.jpg"></div></td>
+								<td><h4>Augusto Souza<br><span>Francisco Morato/SP</span></h4></td>
+							</tr>
+							<tr>
+								<td width="60px"><div class="imgBx"><img src="img/ana-tavares.jpg"></div></td>
+								<td><h4>Ana Tavares<br><span>Campinas/SP</span></h4></td>
+							</tr>
+							<tr>
+								<td width="60px"><div class="imgBx"><img src="img/gabriela-cabral.jpg"></div></td>
+								<td><h4>Gabriela Cabral<br><span>São Paulo/SP</span></h4></td>
+							</tr>
+							<tr>
+								<td width="60px"><div class="imgBx"><img src="img/murilo-henrique.jpg"></div></td>
+								<td><h4>Murilo Henrique<br><span>São Paulo/SP</span></h4></td>
+							</tr>
+							<tr>
+								<td width="60px"><div class="imgBx"><img src="img/victor-de-morais.jpg"></div></td>
+								<td><h4>Victor de Moraes<br><span>São Paulo/SP</span></h4></td>
+							</tr>
+							<tr>
+								<td width="60px"><div class="imgBx"><img src="img/paula-santos.jpg"></div></td>
+								<td><h4>Paula Santos<br><span>São Paulo/SP</span></h4></td>
+							</tr>
+							<tr>
+								<td width="60px"><div class="imgBx"><img src="img/maria-oliveira.jpg"></div></td>
+								<td><h4>Maria Oliveira<br><span>São Paulo/SP</span></h4></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div><!-- X.Main -->
+		</div><!-- X.Container -->		
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script>
+			// Menu Toggle
+			let toggle = document.querySelector('.toggle');
+			let navigation = document.querySelector('.navigation');
+			let main = document.querySelector('.main');
+
+			toggle.onclick = function(){
+				navigation.classList.toggle('active');
+				main.classList.toggle('active');
+			}
+
+			// marcar class selecionada da lista
+			let list = document.querySelectorAll('.navigation li');
+			function activeLink(){
+				list.forEach((item)=>
+				item.classList.remove('hovered'));
+				this.classList.add('hovered');					
+			}
+			list.forEach((item) => 
+			item.addEventListener('mouseover',activeLink))
+		</script>
+	</body>
+</html>
